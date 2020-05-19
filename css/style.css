@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Monserrat:400,500,600,700');
+
+body{
+	font-family: 'Monserrat';
+	font-size: 14px;
+	color: #fff;
+}
+
+:root{
+	--azul: #41c1fe;
+    --fondo_oscuro: #383838;
+    --fndo_gris: #f3f3f3;
+    --titulo: #3c3838;
+    --subtitulo: #888585;
+    --texto_general: #898989;
+} 
+
+header {
+	padding-top: 25px;
+	background-color: transparent !important;
+}
+
+header a {
+	font-family: 'Monserrat';
+	color: #fff !important;
+	font-size: 18px;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.navbar.nav-item {
+	color: #fff;
+}
+
+.btn-default {
+	font-family: 'Oswald';
+	background-color: var(--azul);
+	color: #fff !important;
+	font-size: 14px;
+	font-weight: 700 !important;
+	transition: all 0.3s ease-in-out;
+	border-radius: 50px;
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+	padding: 13px 40px 13px !important;
+}
+
+.btn-default:hover {
+	transform: scale(0.9);
+	transition: all 0.3s ease-in-out;
+}
+
+#top {
+	background-image: url("../img/slider1_slide2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 15%;
+	text-align: center;
+}
+
+#top h2 {
+	font-family: 'Oswald';
+	font-size: 90px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 30%;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#top h4 {
+	font-family: 'Oswald';
+	color: var(--texto_general);
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 150px;
+	letter-spacing: 0.5px;
+}
+
+#top .btn-default {
+	font-size: 18px;
+	padding: 20px 55px !important;
+}
+
+.blanco{
+	background: #fff !important;
+	border: 1px solid var(--borde);
+	color: var(--azul) !important;
+	margin-left: 15px;
+}
+
+.titulo {
+	font-size: 35px;
+	color: #273c61;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.subtitulo {
+	font-size: 16px;
+	color: #959fac;
+	font-weight: 400;
+	margin-bottom: 60px;
+	line-height: 1.7;
+}
+
+#imagenes {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f3f3f3;
+}
+
+#imagenes h2 {
+	font-weight: 700;
+	font-family: 'Oswald';
+	letter-spacing: -1px;
+	font-size: 50px;
+	padding: 100px 0;
+}
+
+.imagen1 {
+	background-image: url("../img/men-running.jpg");
+	background-repeat: no-repeat;
+}
+
+.imagen2 {
+	background-image: url("../img/women-runnig.jpg");
+	background-repeat: no-repeat;
+}
+
+.imagen3 {
+	background-color: var(--azul);
+}
+
+#shop {
+	text-align: center;
+	font-family: 'Oswald';
+	background-color: #f3f3f3;
+	padding-bottom: 150px;
+}
+
+#shop h4 {
+	color: var(--texto_general);
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	padding-bottom: 25px;
+}
+
+#shop h2 {
+	color: var(--titulo);
+	font-weight: 700;
+	font-size: 55px;
+	letter-spacing: -0.5px;
+	padding-bottom: 50px;
+}
+
+#shop article {
+	background-color: #fff;
+	margin-left: 25px;
+}
+
+#shop h3 {
+	color: var(--titulo);
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+#shop h3 span {
+	color: var(--subtitulo);
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#shop .btn.btn-default {
+	margin-bottom: 45px;
+}
+
+#banner2 {
+	font-family: 'Oswald';
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0;
+}
+
+#banner2 h2 {
+	font-size: 35px;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
+
+#banner2 h2 span {
+	color: var(--azul);
+}
+
+#banner2 p {
+	color: var(--texto_general);
+	font-family: 'Monserrat';
+	padding-bottom: 15px;
+}
+
+#banner2 h3 {
+	color: var(--azul);
+	padding-bottom: 30px;
+}
+
+#banner2 .blanco {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+#banner2 .btn-default {
+	font-size: 18px;
+}
+
+#imagenes2 {
+	padding-top: 70px;
+	padding-bottom: 90px;
+	background-color: #f3f3f3;
+}
+
+#imagenes2 h2 {
+	font-weight: 700;
+	font-family: 'Oswald';
+	letter-spacing: -1px;
+	font-size: 22px;
+	padding: 120px 0 80px;
+	margin-top: 150px;
+}
+
+.imagen4 {
+	background-image: url("../img/service-1-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: 35px;
+}
+
+.imagen5 {
+	background-image: url("../img/service-2-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: 35px;
+}
+
+.imagen6 {
+	background-image: url("../img/service-3-1170x658.jpg");
+	background-position: center center;
+}
+
+#shop2 {
+	text-align: center;
+	font-family: 'Oswald';
+	background-color: #f3f3f3;
+	padding-bottom: 150px;
+}
+
+#shop2 h4 {
+	color: var(--texto_general);
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	padding-bottom: 25px;
+}
+
+#shop2 h2 {
+	color: var(--titulo);
+	font-weight: 700;
+	font-size: 55px;
+	letter-spacing: -0.5px;
+	padding-bottom: 50px;
+}
+
+#shop2 article {
+	background-color: #fff;
+	margin-left: 25px;
+}
+
+#shop2 h3 {
+	color: var(--titulo);
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+#shop2 h3 span {
+	color: var(--subtitulo);
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#shop2 .btn.btn-default {
+	margin-bottom: 45px;
+}
+
+#redes {
+	background-color: #383838;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+#redes a {
+	color: #fff;
+	font-size: 25px;
+	padding-right: 80px;
+}
+
+
+footer {
+	background-color: #383838;
+	padding-bottom: 5px;
+}
+
+footer img {
+	padding: 50px 0px 0px 150px;
+}
+
+footer p {
+	color: var(--subtitulo);
+	padding-left: 150px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+/*mobile*/
+
+@media (max-width:480px) {
+	#top h2{
+		font-size: 30px;
+	}
+	#top {
+		background-size: cover;
+		background-position: top center;
+	}
+	header{
+		position: relative;
+	}
+	
+	#delivery.text-right {
+		text-align: left !important;
+	}
+	#delivery article,
+	#products article {
+		margin-top: 30px;
+	}
+	#pricing h2, .titulo-section {
+		font-size: 32px;
+		width: 100%;
+	}
+	
+	#accordion .card-header {
+		font-size: 16px;
+	}
+	
+	#accordion .card-body {
+		font-size: 14px;
+		padding-left: 22px;
+	}
+	
+	#signup .btn-default {
+		width: 100%;
+	}
+	
+	#navbar-nav {
+		text-align: center;
+	}
+	
+	#navbar-nav .nav-item {
+		padding-left: 0 !important;
+	}
+}
+
+/*tablet*/
+
+@media (min-width:481px) and (max-width:1200px) {
+	
+}
